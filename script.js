@@ -28,6 +28,7 @@ const addTask = () => {
     });
   }
   saveToLocalStorage();
+  todoInput.value = "";
   displayTasks();
 };
 const saveToLocalStorage = () => {
@@ -81,7 +82,6 @@ function editTask(idx) {
   inputEl.focus();
   inputEl.addEventListener("keydown", (event) => {
     if (event.key == "Enter") {
-      console.log("in edit 2");
       const updatedText = inputEl.value.trim();
       if (updatedText) {
         todo[idx].text = updatedText;
