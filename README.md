@@ -13,5 +13,6 @@ The App has following requirement
 - Display all the tasks added and count of total tasks.
 - Mark a task completed.
 - When refreshed the list to earlier added tasks to persist in our frontend.
+- Deploy the finished project on [netlify](https://app.netlify.com/)
 
 
