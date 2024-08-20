@@ -9,7 +9,7 @@ Playaround with following App to understand the app features
 
 The App has following requirement
 
-- Adding a task
+- Adding a task.
 - Display all the tasks added and count of total tasks.
 - Mark a task completed.
 - When refreshed the list to earlier added tasks to persist in our frontend.
